@@ -9,7 +9,7 @@ namespace Tyuiu.IlyinME.Sprint2.Task0.V17.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGeCompareOperations()
+        public void ValidGetCompareOperations()
         {
             DataService ds = new DataService();
             int x = 1065;
