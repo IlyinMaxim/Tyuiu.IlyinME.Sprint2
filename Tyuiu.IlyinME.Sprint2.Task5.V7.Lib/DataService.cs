@@ -16,40 +16,40 @@ namespace Tyuiu.IlyinME.Sprint2.Task5.V7.Lib
             switch (n % 12 + 1)
             {
                 case 1:
-                    monthName = "Январь";
+                    monthName = "январь";
                     break;
                 case 2:
-                    monthName = "Февраль";
+                    monthName = "февраль";
                     break;
                 case 3:
-                    monthName = "Март";
+                    monthName = "март";
                     break;
                 case 4:
-                    monthName = "Апрель";
+                    monthName = "апрель";
                     break;
                 case 5:
-                    monthName = "Май";
+                    monthName = "май";
                     break;
                 case 6:
-                    monthName = "Июнь";
+                    monthName = "июнь";
                     break;
                 case 7:
-                    monthName = "Июль";
+                    monthName = "июль";
                     break;
                 case 8:
-                    monthName = "Август";
+                    monthName = "август";
                     break;
                 case 9:
-                    monthName = "Сентябрь";
+                    monthName = "сентябрь";
                     break;
                 case 10:
-                    monthName = "Октябрь";
+                    monthName = "октябрь";
                     break;
                 case 11:
-                    monthName = "Ноябрь";
+                    monthName = "ноябрь";
                     break;
                 case 12:
-                    monthName = "Декабрь";
+                    monthName = "декабрь";
                     break;
                 default:
                     throw new ArgumentException($"Проверте число месяцев ({n})");

@@ -33,6 +33,9 @@ namespace Tyuiu.IlyinME.Sprint2.Task5.V7
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
+            Console.WriteLine("Введите год: ");
+            int startYear = int.Parse(Console.ReadLine());
+
             Console.WriteLine("Введите количество прошедших месяцев:");
             int n = Convert.ToInt32(Console.ReadLine());
 
@@ -49,7 +52,9 @@ namespace Tyuiu.IlyinME.Sprint2.Task5.V7
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-           
+            
+            Console.WriteLine($"С начала {startYear} года прошло " + n + " месяца(-ев) и 2 дня");
+
             Console.WriteLine(res);
 
             Console.ReadKey();
